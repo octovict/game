@@ -2,7 +2,7 @@ handlers.helloWorld = function (args, context) {
     
     // The pre-defined "currentPlayerId" variable is initialized to the PlayFab ID of the player logged-in on the game client. 
     // Cloud Script handles authenticating the player automatically.
-    var message = "Hello Again " + currentPlayerId + "!";
+    var message = "Goodbye " + currentPlayerId + "!";
 
     // You can use the "log" object to write out debugging statements. It has
     // three functions corresponding to logging level: debug, info, and error. These functions
